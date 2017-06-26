@@ -1,0 +1,15 @@
+{
+    "name": "bnc/builder-pattern-example",
+    "authors": [
+        {
+            "name": "Gemma Black",
+            "email": "gemma@thebignorth.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BNC\\Builder\\" : "src/"
+        }
+    },
+    "require": {}
+}
