@@ -1,8 +1,7 @@
 <?php namespace BNC\Builder;
 
-interface UserType
+interface UserGetters
 {
-
     public function name();
 
     public function age();

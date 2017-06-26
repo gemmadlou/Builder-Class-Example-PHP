@@ -1,6 +1,6 @@
 <?php namespace BNC\Builder;
 
-final class UserBuilder
+final class UserBuilder implements UserSetters, Builder
 {
 
     private $options = [];

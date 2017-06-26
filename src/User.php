@@ -2,7 +2,7 @@
 
 use Exception;
 
-final class User implements UserType
+final class User implements UserGetters
 {
     protected $age;
     protected $name;
