@@ -46,7 +46,7 @@ final class User implements UserGetters
         return $this->name;
     }
 
-    public function validate()
+    private function validate()
     {
         if (!isset($this->name)) {
             throw new Exception('User should always have a name');
